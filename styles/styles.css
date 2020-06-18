@@ -1,3 +1,16 @@
-#container {
+#title {
+  text-align: center;
+}
 
+#container {
+  position: relative;
+  top: 30px;
+  outline:2px solid #000;
+  font-size: 0;
+  margin:auto;
+  margin-bottom: 20px;
+  height:960px;
+  width:960px;
+  padding: 0px;
+  border: none;
 }

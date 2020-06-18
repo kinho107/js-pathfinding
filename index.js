@@ -1,8 +1,8 @@
 // function that builds a grid in the "container"
 function createGrid(x) {
     for (var rows = 0; rows < x; rows++) {
-        for (var columns = 0; columns < 40; columns++) {
-            $("#container").append(`<div class='grid' id=${columns}></div>`);
+        for (var columns = 0; columns < x; columns++) {
+            $("#container").append(`<div class='grid' id="${columns},${rows}"></div>`);
         };
     };
     $(".grid").width(960/x);
